@@ -7,9 +7,12 @@ buildscript {
     ext.palette = '1.0.0'
     ext.material = '1.6.0'
     ext.glide = '4.12.0'
+    ext.hilt = '2.37'
+    ext.dragger = '2.41'
 
     dependencies {
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.41"
     }
 }
 

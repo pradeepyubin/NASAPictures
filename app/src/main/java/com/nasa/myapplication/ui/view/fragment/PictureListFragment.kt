@@ -12,8 +12,10 @@ import com.nasa.myapplication.ui.adapter.PictureRvAdapter
 import com.nasa.myapplication.ui.view.viewmodel.SharedViewModel
 
 class PictureListFragment : Fragment() {
+
     private lateinit var binding : FragmentPictureListBinding
     private lateinit var viewModel : SharedViewModel
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,4 +39,5 @@ class PictureListFragment : Fragment() {
             binding.recyclerView.adapter = adapter
         }
     }
+
 }
